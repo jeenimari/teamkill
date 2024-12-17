@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrap">
+        <ul id="header">
+            <li> <a href="soccerindex.html">홈로고</a> </li>
+            <li> <a href="soccer.html">자유게시판</a></li>
+        </ul>
+    <div id="container">
+        <h3> 게시물 조회 </h3>
+        <div>
+            제목 : <span class="titleBox" > 게시물 제목이 들어갈 자리 </span> <br/>
+            내용 : <span class="contentBox"> 게시물 내용이 들어갈 자리 </span> <br/>
+            작성일/조회수 : <span class="dateBox"> 2024-11-28 </span> / 
+                            <span class="viewBox"> 3 </span> <br/>
+            <div class="btnBox">
+                <button onclick="삭제함수()" type="button">삭제</button> 
+                <button type="button" onclick="수정함수()">수정</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="./js/soccerdata.js"></script>
+    <script src="./js/soccerview.js"></script>
+</body>
+</html>
