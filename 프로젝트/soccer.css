@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+}
+.container > button{
+    margin-right: 770px;
+    width: 70px;
+}
+table{
+    margin: 0 auto;
+    text-align: center;
+    width: 840px;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
