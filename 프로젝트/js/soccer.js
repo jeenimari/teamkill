@@ -9,7 +9,7 @@ function 출력함수( ){ // * localStorage 로 부터 게시물 배열 호출
                         <td> ${ board.date } </td>
                         <td> 
                             <a href="soccerview.html?bno=${ board.bno }">
-                                ${ board.content }
+                                ${ board.title }
                             </a> 
                         </td>
                         <td> ${ board.view } </td>
