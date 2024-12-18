@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>농구 게시판</title>
+    <link rel="stylesheet" href="basketball.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h2>스포츠 커뮤니티</h2>
+            <nav>
+                <ul class="navigation-list">
+                    <li><a href="#home"> <h3> 홈 </h3> </a></li>
+                    <li><a href="basketball.html"> <h4> 농구 </h4> </a></li>
+                    <li><a href="#bsb"> <h4> 야구 </h4> </a></li>
+                    <li><a href="#soccer"> <h4> 축구 </h4> </a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content-section">
+            <h3>농구 게시판</h3>
+            <button type="button" class="write-button">
+                <a href="basketballwrite.html">글쓰기</a>
+            </button>
+            <div class="table-container">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>작성일</th>
+                            <th>제목</th>
+                            <th>조회수</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2024-11-25</td>
+                            <td>첫번째 게시물 제목</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2024-11-26</td>
+                            <td>두번째 게시물 제목</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>2024-11-27</td>
+                            <td>세번째 게시물 제목</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 K-DT. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/basketballdata.js"></script>
+    <script src="./js/basketball.js"></script>
+</body>
+</html>

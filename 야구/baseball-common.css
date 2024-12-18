@@ -1,0 +1,74 @@
+/* 기본 리셋 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 페이지 전체 레이아웃 */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.base-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: rgb(0, 89, 255);
+    color: #fff;
+    padding: 10px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sport-menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 40px;
+    padding: 0;
+}
+
+.sport-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* 메인 컨텐츠 영역 */
+.page-content {
+    flex: 1;
+    width: 840px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* 푸터 스타일 */
+footer {
+    background-color: rgb(0, 89, 255);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* 공통 버튼 스타일 */
+button {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}

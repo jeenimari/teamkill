@@ -1,0 +1,97 @@
+.content-section {
+    margin: 20px auto;
+    width: 840px;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title-section {
+    width: 840px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.content-section {
+    width: 840px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 150px;
+}
+
+.post-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.post-content {
+    font-size: 16px;
+    text-align: center;
+}
+
+.meta-section {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 100px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    background-color: rgb(0, 89, 255);
+    color: #fff;
+    padding: 10px;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navigation-list li {
+    margin: 0 20px;
+}
+
+.navigation-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(0, 89, 255);
+    color: #fff;
+    margin-top: 40px;
+}
