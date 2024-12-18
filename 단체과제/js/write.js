@@ -30,14 +30,17 @@ function resistRation(){
     /* 보드에 일단 값들을 입력 */
 
     //localSorage 에 배열을 운영하려함함
-    let boardList = getBoardList();    //1. 게시물 배열 호출
-    //반환값 추후에 쓸거면 변수로 저장 아니면 그냥 출력만 하면 됨됨
+    let boardList = getBoardList();    //1. 게시물 배열 호출 
+    // 나중에 문제 이부분만 변경
+
+
+    //반환값 추후에 쓸거면 변수로 저장 아니면 그냥 출력만 하면 됨
 
     //게시물 번호(식별자), 만약에 게시물 배열이 존재하면 마지막 게시물의 번호 +1 , 아니면 1(첫게시물)
     let bno = boardList.length != 0 ? boardList[boardList.length-1].bno+1 : 1;
                               // boardlist의 인덱스가 0이 아니면 +1 아니면 1
-                              //todolist 만든 방식과는 다르다다
-
+                              //todolist 만든 방식과는 다르다
+    
     //객체Object
     let board = {
         bno : bno,
@@ -55,7 +58,8 @@ function resistRation(){
     /* 출력함수 */
 
     //게시물 배열 상태를cloalStorage에 등록
-    setBoardList(boardList);
+    
+    setBoardList(boardList);   // 수정시 boardList를 명칭을 변경해서 올리면 가능할듯듯
 
     //3. 메세지 안내
     alert("등록성공")

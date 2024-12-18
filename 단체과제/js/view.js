@@ -20,7 +20,7 @@ function ditailOut () {
 
     //2. 게시물번호(식별자)를 가지고 해당 게시물의 모든 정보 가져오기
 
-    let board = getBoard(bno); //여기서 bno를 보내는걸 매개변수라 함
+    let board = getBoard(bno); //여기서 bno를 보내는걸 매개변수라 함, data로 보냄 
         console.log(board);
         
     
@@ -41,4 +41,14 @@ function ditailOut () {
                                 <button type = "button">수정</button>
                                 `
     
+}//f end
+
+
+//삭제함수를 여기에다가 만들어도 되지만 어차피 onclick에 함수 설정을 해놓으면  data.js에 넣어도 실행가능
+
+
+
+function corRectPut(bno){
+    // 함수는 data에서 만들고 view 에다가 비밀번호 변수와 비교할 변수들을 저장하고 알림을 만들지 생각중
+
 }
