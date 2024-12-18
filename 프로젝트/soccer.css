@@ -1,5 +1,6 @@
 .container{
     text-align: center;
+    margin-bottom: 400px;
 }
 .container > button{
     margin-right: 770px;
@@ -14,4 +15,35 @@ table{
 th, td{
     border: 1px solid black;
     padding: 10px;
+}
+h2{
+    text-align: center;
+}
+header {
+    background-color: rgb(0, 89, 255);
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(0, 89, 255);
+    color: #fff;
+    margin-top: 40px;
 }
