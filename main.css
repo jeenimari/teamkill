@@ -18,6 +18,12 @@ header {
     padding: 10px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+  
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -44,6 +50,8 @@ main {
 }
 
 .forum-category {
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
@@ -79,6 +87,8 @@ main {
     font-size: 16px;
     color: #555;
 }
+
+
 
 footer {
     text-align: center;
