@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>농구 게시판 글쓰기</title>
+    <link rel="stylesheet" href="basketballwrite.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h2>스포츠 커뮤니티</h2>
+            <nav>
+                <ul class="navigation-list">
+                    <li><a href="#home"> <h3> 홈 </h3> </a></li>
+                    <li><a href="basketball.html"> <h4> 농구 </h4> </a></li>
+                    <li><a href="#bsb"> <h4> 야구 </h4> </a></li>
+                    <li><a href="#soccer"> <h4> 축구 </h4> </a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content-section">
+            <h3>글쓰기</h3>
+            <form class="post-form">
+                <div class="input-wrapper">
+                    <input class="title-input" type="text" placeholder="제목"/>
+                </div>
+                <div class="content-wrapper">
+                    <textarea class="content-input" cols="20" rows="5" placeholder="내용"></textarea>
+                </div>
+                <div class="password-wrapper">
+                    <input class="password-input" type="password" placeholder="비밀번호"/>
+                </div>
+                <div class="button-wrapper">
+                    <button onclick="submitPost()" type="button">등록</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 K-DT. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/basketballdata.js"></script>
+    <script src="./js/basketballwrite.js"></script>
+</body>
+</html>

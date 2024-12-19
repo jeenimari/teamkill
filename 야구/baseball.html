@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>야구 게시판</title>
+    <link rel="stylesheet" href="baseball.css">
+</head>
+<body>
+    <div class="base-container">
+        <header>
+            <h2>스포츠 커뮤니티</h2>
+            <nav>
+                <ul class="sport-menu">
+                    <li><a href="index.html"><h3>홈</h3></a></li>
+                    <li><a href="#basketball"><h4>농구</h4></a></li>
+                    <li><a href="baseball.html"><h4>야구</h4></a></li>
+                    <li><a href="#soccer"><h4>축구</h4></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="page-content">
+            <h3>야구 게시판</h3>
+            <button type="button" class="create-btn">
+                <a href="baseballwrite.html">글쓰기</a>
+            </button>
+            <div class="list-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>작성일</th>
+                            <th>제목</th>
+                            <th>조회수</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 K-DT. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="./js/baseballdata.js"></script>
+    <script src="./js/baseball.js"></script>
+</body>
+</html>

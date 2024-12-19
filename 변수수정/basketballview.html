@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>농구 게시물 조회</title>
+    <link rel="stylesheet" href="basketballview.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h2>스포츠 커뮤니티</h2>
+            <nav>
+                <ul class="navigation-list">
+                    <li><a href="#home"> <h3> 홈 </h3> </a></li>
+                    <li><a href="basketball.html"> <h4> 농구 </h4> </a></li>
+                    <li><a href="#bsb"> <h4> 야구 </h4> </a></li>
+                    <li><a href="#soccer"> <h4> 축구 </h4> </a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content-section">
+            <h3>게시물 조회</h3>
+            <div class="post-container">
+                <div class="title-section">
+                    제목 : <span class="post-title">제목 내용</span>
+                </div>
+                <div class="content-section">
+                    내용 : <span class="post-content">내용</span>
+                </div>
+                <div class="meta-section">
+                    작성일/조회수 : <span class="post-date">2024-11-28</span> /
+                    <span class="view-count">3</span>
+                </div>
+                <div class="button-section">
+                    <button onclick="deletePost()" type="button">삭제</button>
+                    <button type="button" onclick="editPost()">수정</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 K-DT. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/basketballdata.js"></script>
+    <script src="./js/basketballview.js"></script>
+</body>
+</html>
